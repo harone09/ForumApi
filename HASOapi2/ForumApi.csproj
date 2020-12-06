@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200625134457_HASOapi2.Models.HASODBContext2.cs" />
+    <Compile Remove="Migrations\20200625134457_HASOapi2.Models.HASODBContext2.Designer.cs" />
+    <Compile Remove="Migrations\20200625142723_HASOapi2.Models.HASODBContext3.cs" />
+    <Compile Remove="Migrations\20200625142723_HASOapi2.Models.HASODBContext3.Designer.cs" />
+    <Compile Remove="Migrations\20200625144928_HASOapi2.Models.HASODBContext3.cs" />
+    <Compile Remove="Migrations\20200625144928_HASOapi2.Models.HASODBContext3.Designer.cs" />
+    <Compile Remove="Migrations\20200625145037_HASOapi2.Models.HASODBContext3.cs" />
+    <Compile Remove="Migrations\20200625145037_HASOapi2.Models.HASODBContext3.Designer.cs" />
+    <Compile Remove="Migrations\20200625145225_HASOapi2.Models.HASODBContext3.cs" />
+    <Compile Remove="Migrations\20200625145225_HASOapi2.Models.HASODBContext3.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Ressources\temp\" />
+    <Folder Include="Ressources\uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+
+</Project>
